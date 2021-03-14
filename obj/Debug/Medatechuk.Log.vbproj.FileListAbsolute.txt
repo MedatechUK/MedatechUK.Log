@@ -8,3 +8,13 @@ M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\obj\Debug\MedatechUK.Log.dl
 M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\obj\Debug\MedatechUK.Log.xml
 M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\obj\Debug\MedatechUK.Log.pdb
 M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\obj\Debug\Medatechuk.Log.vbprojAssemblyReference.cache
+M:\MedatechUK.Packages\MedatechUK.Log\bin\Debug\MedatechUK.Log.dll
+M:\MedatechUK.Packages\MedatechUK.Log\bin\Debug\MedatechUK.Log.pdb
+M:\MedatechUK.Packages\MedatechUK.Log\bin\Debug\MedatechUK.Log.xml
+M:\MedatechUK.Packages\MedatechUK.Log\obj\Debug\MedatechUK.Resources.resources
+M:\MedatechUK.Packages\MedatechUK.Log\obj\Debug\MedatechUK.Log.vbproj.GenerateResource.cache
+M:\MedatechUK.Packages\MedatechUK.Log\obj\Debug\MedatechUK.Log.vbproj.CoreCompileInputs.cache
+M:\MedatechUK.Packages\MedatechUK.Log\obj\Debug\MedatechUK.Log.dll
+M:\MedatechUK.Packages\MedatechUK.Log\obj\Debug\MedatechUK.Log.xml
+M:\MedatechUK.Packages\MedatechUK.Log\obj\Debug\MedatechUK.Log.pdb
+M:\MedatechUK.Packages\MedatechUK.Log\obj\Debug\MedatechUK.Log.vbprojAssemblyReference.cache

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MedatechUK.Deserial</id>
+    <version>1.0.0</version>
+    <authors>Simon Barnett</authors>
+    <owners>Simon Barnett</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>medatech.png</icon>
+    <description>Generic Logging for the MedatechUK Namespace.</description>
+    <releaseNotes>Initial Release.</releaseNotes>
+    <repository type="git" url="https://github.com/MedatechUK/MedatechUK.Log" />
+
+  </metadata>
+  <files>
+    <file src="M:\MedatechUK.Packages\MedatechUK.Log\support\medatech.png" target="medatech.png" />
+  </files>
+</package>
