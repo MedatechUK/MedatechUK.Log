@@ -1,0 +1,10 @@
+M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\obj\Debug\Medatechuk.Log.vbproj.GenerateResource.cache
+M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\obj\Debug\Medatechuk.Log.vbproj.CoreCompileInputs.cache
+M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\obj\Debug\Medatechuk.Resources.resources
+M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\bin\Debug\MedatechUK.Log.dll
+M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\bin\Debug\MedatechUK.Log.pdb
+M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\bin\Debug\MedatechUK.Log.xml
+M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\obj\Debug\MedatechUK.Log.dll
+M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\obj\Debug\MedatechUK.Log.xml
+M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\obj\Debug\MedatechUK.Log.pdb
+M:\MedatechUK.Packages\Medatechuk.Log\Medatechuk.Log\obj\Debug\Medatechuk.Log.vbprojAssemblyReference.cache
