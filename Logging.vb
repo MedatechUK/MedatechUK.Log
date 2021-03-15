@@ -87,9 +87,15 @@ Namespace Logging
         End Function
 
         Public Sub logHandler(sender As Object, e As LogArgs)
-            Console.WriteLine(e.Message)
             Using log As New StreamWriter(currentlog.FullName, True)
-                log.WriteLine("{0}> {1}", Format(Now, "HH:mm:ss"), e.Message)
+                If Not sender Is Nothing Then
+                    log.WriteLine("{0}> {1} {2}", Format(Now, "HH:mm:ss"), sender.ToString, e.Message)
+
+                Else
+                    log.WriteLine("{0}> {1}", Format(Now, "HH:mm:ss"), e.Message)
+
+                End If
+
             End Using
 
         End Sub
