@@ -98,6 +98,8 @@ Namespace Logging
 
             End Using
 
+            Console.WriteLine(e.Message)
+
         End Sub
 
     End Module
