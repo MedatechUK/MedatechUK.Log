@@ -17,4 +17,5 @@ M:\MedatechUK.Packages\MedatechUK.Log\obj\Debug\MedatechUK.Log.vbproj.CoreCompil
 M:\MedatechUK.Packages\MedatechUK.Log\obj\Debug\MedatechUK.Log.dll
 M:\MedatechUK.Packages\MedatechUK.Log\obj\Debug\MedatechUK.Log.xml
 M:\MedatechUK.Packages\MedatechUK.Log\obj\Debug\MedatechUK.Log.pdb
+M:\MedatechUK.Packages\MedatechUK.Log\obj\Debug\MedatechUK.frmLog.resources
 M:\MedatechUK.Packages\MedatechUK.Log\obj\Debug\MedatechUK.Log.vbprojAssemblyReference.cache
