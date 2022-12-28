@@ -13,6 +13,11 @@
             End Set
         End Property
 
+        Sub New(STR As String)
+            _Message = STR
+
+        End Sub
+
         Sub New(format As String, ParamArray Args() As String)
             _Message = String.Format(format, Args)
 

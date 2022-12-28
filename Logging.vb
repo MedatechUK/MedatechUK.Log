@@ -23,6 +23,14 @@ Namespace Logging
             logHandlerDelegate.Invoke(Nothing, New LogArgs(str, args))
         End Sub
 
+        Public Sub Log(ByRef Sender As Object, str As String)
+            logHandlerDelegate.Invoke(Sender, New LogArgs(str))
+        End Sub
+
+        Public Sub Log(str As String)
+            logHandlerDelegate.Invoke(Nothing, New LogArgs(str))
+        End Sub
+
         Public Sub Log(ByRef Sender As Object, ex As Exception)
             logHandlerDelegate.Invoke(Sender, New LogArgs(ex))
         End Sub
@@ -87,18 +95,33 @@ Namespace Logging
         End Function
 
         Public Sub logHandler(sender As Object, e As LogArgs)
-            Using log As New StreamWriter(currentlog.FullName, True)
+            With New Threading.Thread(AddressOf hWriteLog)
+                .Name = "Write Log"
                 If Not sender Is Nothing Then
-                    log.WriteLine("{0}> {1} {2}", Format(Now, "HH:mm:ss"), sender.ToString, e.Message)
-
+                    .Start(String.Format("{0}> {1} {2}", Format(Now, "HH:mm:ss"), sender.ToString, e.Message))
                 Else
-                    log.WriteLine("{0}> {1}", Format(Now, "HH:mm:ss"), e.Message)
-
+                    .Start(String.Format("{0}> {1}", Format(Now, "HH:mm:ss"), e.Message))
                 End If
-
-            End Using
+            End With
 
             Console.WriteLine(e.Message)
+
+        End Sub
+
+        Private Sub hWriteLog(str As String)
+            Dim written As Boolean = False
+            While Not written
+                Try
+                    Using log As New StreamWriter(currentlog.FullName, True)
+                        log.WriteLine(str)
+                    End Using
+                    written = True
+
+                Catch ex As Exception
+                    Threading.Thread.Sleep(1000)
+
+                End Try
+            End While
 
         End Sub
 
